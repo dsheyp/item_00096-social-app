@@ -146,10 +146,9 @@ export default function CreatePostPage() {
                         <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-muted">
                           <ImageIcon className="h-6 w-6 text-muted-foreground" />
                         </div>
-                        <h3 className="mb-2 text-lg font-medium">Drag photos and videos here</h3>
                         <div className="relative">
                           <Button type="button" className="mt-2">
-                            <Upload className="mr-2 h-4 w-4" /> Select from computer
+                            <Upload className="mr-2 h-4 w-4" /> Select from device
                           </Button>
                           <Input
                             type="file"
